@@ -3,15 +3,15 @@ import React, { useEffect, useState } from 'react'
 import {  motion } from "framer-motion";
 import Marquee from 'react-fast-marquee';
 
-const words = ["mobile app"];
 
 export default function Banner() {
+  const words = ["mobile app"];
+
   const [translateY, setTranslateY] = useState<number>(0);
   const [translateY2, setTranslateY2] = useState<number>(0);
   const [rotateX, setRotateX] = useState<number>(0);
   const [scale, setScale] = useState<number>(1);
   const [opacity, setOpacity] = useState<number>(1);
-  // const [loaded, setLoaded] = useState(false);
   const [displayText, setDisplayText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -19,24 +19,11 @@ export default function Banner() {
   const [hoveredTouch, setHoveredTouch] = useState(false);
   const [hoveredServices, setHoveredServices] = useState(false);
 
-  // Background Effect
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-      setTranslateY(scrollY / 2.5);
-      setTranslateY2(scrollY / 6);
-      setRotateX(Math.min(scrollY / 10, 20));
-      setScale(Math.max(0.88, 1 - scrollY / 300 / 2));
-      setOpacity(Math.max(0.65, 1 - scrollY / 600 / 2));
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
+  
   // Typing Effect
   useEffect(() => {
     const currentWord = words[wordIndex];
+    // setCurrentWord(currentWord);
     let timeout: ReturnType<typeof setTimeout>;
 
     if (typing) {
@@ -66,12 +53,27 @@ export default function Banner() {
     return () => clearTimeout(timeout);
   }, [charIndex, typing, wordIndex]);
 
+
   // Images
   const animateImages = ['/Images/LandingPage/Banner/IBITS.png', '/Images/LandingPage/Banner/Evo11ve.png', '/Images/LandingPage/Banner/Mako.png', '/Images/LandingPage/Banner/Suyash.png', '/Images/LandingPage/Banner/Anyo.png']
 
+    // Background Effect
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        setTranslateY(scrollY / 2.5);
+        setTranslateY2(scrollY / 6);
+        setRotateX(Math.min(scrollY / 10, 20));
+        setScale(Math.max(0.88, 1 - scrollY / 300 / 2));
+        setOpacity(Math.max(0.65, 1 - scrollY / 600 / 2));
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
   return (
-    // loaded && (
-    <div className="fixed top-0 select-none pt-[5.938rem] px-[5.438rem] w-full h-[100vh] overflow-hidden perspective-[75rem] flex items-center justify-center bg-black"
+    <div className="fixed top-0 select-none px-[1rem] pt-[1.5rem] md:pt-[4.5rem] md:px-[2.5rem] lg:pt-[5.938rem] lg:px-[5.438rem] w-full h-[100vh] overflow-hidden perspective-[75rem] flex items-center justify-center bg-black"
       style={{ transformStyle: 'preserve-3d' }}
     >
       {/* background image */}
@@ -100,7 +102,7 @@ export default function Banner() {
         />
       {/* text overlays */}
       <div
-        className=" w-[calc(100%-2.5rem)] lg:w-auto relative z-10 text-center text-white flex flex-col items-center justify-center gap-[2.188rem] md:gap-[0.625rem] lg:gap-[.625rem]"
+        className=" w-[calc(100%-2.5rem)]  lg:w-auto relative z-10 text-center text-white flex flex-col items-center justify-center gap-[2.188rem] md:gap-[0.625rem] lg:gap-[3.125rem]"
         style={{
           opacity: opacity,
           transform: `scale(${scale}) translateY(${translateY2}px)`,
@@ -108,8 +110,8 @@ export default function Banner() {
         }}
       >
         {/* Main content */}
-        <div className='z-10 text-center pt-[8.375rem] '>
-          <div className="text-[3rem] font-semibold w-[55.938rem] syneFont mx-auto pb-[0.625rem] leading-[1.1em] tracking-[-0.179rem]">
+        <div className='z-10 text-center pt-[15.313rem] md:pt-[17.313rem] lg:pt-[8.375rem] '>
+          <div className=" text-[2.5rem] lg:text-[3rem] md:text-[3rem]  font-semibold lg:w-[55.938rem] syneFont mx-auto pb-[0.625rem] leading-[1.1em] tracking-[0rem] lg:tracking-[-0.179rem] md:tracking-[-0.173rem]">
             <motion.span
               initial={{
                 clipPath: "inset(0 60% 0 0)",
@@ -124,9 +126,11 @@ export default function Banner() {
                 y: 0,
               }}
               transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
-              className="inline"
+              className="lg:inline md:inline block"
             >
-              Driving Digital Transformation with
+              Driving Digital Transformation with 
+              <span className="text-white inline md:hidden">&nbsp;custom&nbsp;</span>
+
             </motion.span>
             <motion.span
               className="inline"
@@ -146,8 +150,12 @@ export default function Banner() {
 
             >
               <span className="inline-flex items-baseline whitespace-nowrap">
-                <span className="text-white">custom&nbsp;</span>
-                <span className="text-primary-blue w-[8ch] text-left overflow-hidden">
+              <span className="text-white hidden md:inline">custom&nbsp;</span>
+              <span className={`text-primary-blue text-left overflow-hidden`}
+                style={{
+                  width: `${words[wordIndex].length}ch`,
+                }}
+                >
                   {displayText}
                   <span className="animate-pulse">|</span>
                 </span>
@@ -157,7 +165,9 @@ export default function Banner() {
             </motion.span>
           </div>
 
-          <motion.div className="interFont text-[1.125rem] font-medium w-[37.188rem] leading-[1.5em] mx-auto pb-[0.625rem] tracking-[-0.02em] space-y-1">
+          
+
+          <motion.div className="interFont text-[1rem] lg:text-[1.125rem] md:text-[1rem] font-medium w-[90%] md:w-[90%] lg:w-[37.188rem] leading-[1.5em] mx-auto pb-[0.625rem] tracking-[-0.02em] space-y-1">
             {/* Line 1 */}
             <div className="overflow-hidden">
               <motion.span
@@ -293,7 +303,7 @@ export default function Banner() {
 
           </motion.div>
 
-          {/* pb-[5.438rem] */}
+          {/*Actual; pb-[5.438rem] for web */}
           <div className="flex items-start justify-center gap-[1.5rem]">
             <motion.img
               src="/Images/LandingPage/Banner/BNI.png"
@@ -367,6 +377,6 @@ export default function Banner() {
 
       </div>
     </div>
-    // )
+    
   )
 }
