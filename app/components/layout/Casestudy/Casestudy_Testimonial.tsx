@@ -79,7 +79,7 @@ export default function Casestudy_Testimonial({ testimonial_props }: { testimoni
               <div className="text-[1rem] text-white text-center lg:text-left md:text-left font-[500]">
                 {testimonial_props.name}
               </div>
-              <div className="text-[0.875rem] text-white-50 text-center lg:text-left md:text-left font-[400]">
+              <div className="text-[0.875rem] text-white/50 text-center lg:text-left md:text-left font-[400]">
                 {testimonial_props.profession} @ {testimonial_props.profession_at}
               </div>
             </div>
