@@ -55,7 +55,7 @@ export default function Footer() {
         <svg
           ref={svgRef}
           viewBox="0 20.34 156.69 33.59"
-          className="w-[902px] h-[342px] hidden lg:block"
+          className="w-[56.375rem] h-[21.375rem] hidden lg:block"
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
@@ -90,7 +90,7 @@ export default function Footer() {
               filter="url(#glow)"
               clipPath="url(#text-clip)"
               style={{ pointerEvents: "none" }}
-              className="w-[80.33px] h-[119.31px] blur-[8px]"
+              className="w-[5.021rem] h-[7.457rem] blur-[0.5rem]"
             />
           )}
         </svg>

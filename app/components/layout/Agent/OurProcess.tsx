@@ -72,7 +72,7 @@ export default function OurProcess() {
                             </div>
                             <div className='w-full h-[11.25rem] flex flex-row gap-[0.313rem] items-center justify-center p-[0.625rem]'>
                                 <div className='relative flex flex-col items-center gap-[0.625rem] p-[0.625rem_0.813rem_0_0.813rem] shadow-[0px_0px_0px_1px_#222222_inset]'>
-                                    <div className='w-[107px] h-[107px] bg-[#FFFFFF] mb-[2.688rem]' />
+                                    <div className='w-[6.688rem] h-[6.688rem] bg-[#FFFFFF] mb-[2.688rem]' />
                                     <div className='absolute w-[calc(100%-1.25rem)] bottom-[0.563rem] left-1/2 transform -translate-x-1/2 interFont text-center text-[0.75rem] text-white font-medium leading-[1em] -tracking-[0.04em]'>Analyzing current workflow..</div>
                                 </div>
                                 <div className='p-[0.625rem_0.313rem_0.938rem_0.313rem] shadow-[0px_0px_0px_1px_#222222_inset] flex flex-col gap-[0.313rem]'>

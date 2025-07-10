@@ -13,11 +13,11 @@ export default function AgenticLayer() {
       <div>
         <AgentTitle title="Agentic Layer" title_description="Transform Your Existing Stack with Intelligent Automation" description="Automation that works with what you already use — effortlessly,
             intelligently, reliably."/>
-        <div className="flex flex-row items-center justify-center pb-[217px]">
-          <div className="relative w-[401px] h-[401px] rounded-full flex items-center justify-center overflow-visible">
-            <div className="absolute agenticLayerBase w-[401px] h-[401px] rounded-full z-0"></div>
+        <div className="flex flex-row items-center justify-center pb-[13.563rem]">
+          <div className="relative w-[25.063rem] h-[25.063rem] rounded-full flex items-center justify-center overflow-visible">
+            <div className="absolute agenticLayerBase w-[25.063rem] h-[25.063rem] rounded-full z-0"></div>
             <div
-              className="absolute z-20 top-[51px] left-[51px] w-[394px] h-[394px] pointer-events-none animate-agentic-layer"
+              className="absolute z-20 top-[3.188rem] left-[3.188rem] w-[24.625rem] h-[24.625rem] pointer-events-none animate-agentic-layer"
               style={{
                 filter: "url(#filter0_g_1_1075)",
                 mask: "url(#intersectionMask)",
@@ -31,7 +31,7 @@ export default function AgenticLayer() {
               />
             </div>
 
-            <div className="absolute z-30 text-[#FAFAFA] syneFont text-[60px] text-center font-semibold leading-[60px] top-[176px] left-[141px] animate-agentic-layer-opacity">
+            <div className="absolute z-30 text-[#FAFAFA] syneFont text-[3.75rem] text-center font-semibold leading-[3.75rem] top-[11rem] left-[8.813rem] animate-agentic-layer-opacity">
               Ai Agent Layer
             </div>
 
@@ -84,93 +84,93 @@ export default function AgenticLayer() {
               </mask>
             </svg>
           </div>
-          <div className="flex top-[51px] left-[54px] relative animate-agentic-layer-opacity">
+          <div className="flex top-[3.188rem] left-[3.375rem] relative animate-agentic-layer-opacity">
             <img
               src="/Images/agent/agenticLayerVeins.svg"
               alt="agenticLayer_2"
-              className="w-[321.774px] h-[250.269px]"
+              className="w-[20.111rem] h-[15.642rem]"
             />
           </div>
           <div className="relative">
             <img
               src="/Images/agent/top-blur.svg"
               alt="blurry effect"
-              className="absolute top-[-51px] left-[-54px] z-10 animate-agentic-layer-opacity"
+              className="absolute top-[-3.188rem] left-[-3.375rem] z-10 animate-agentic-layer-opacity"
             />
             <img
               src="/Images/agent/bottom-blur.svg"
               alt="blurry effect"
-              className="absolute bottom-[-102px] left-[-54px] z-10 animate-agentic-layer-opacity"
+              className="absolute bottom-[-6.375rem] left-[-3.375rem] z-10 animate-agentic-layer-opacity"
             />
 
-            <div className="relative z-20 top-[51px] left-[54px] flex flex-col w-[411px] h-max pt-[57px] pb-[50px] rounded-[30px] bg-[#0D0D0D] animate-agentic-layer-shadow">
-              <div className="flex flex-col pl-[41px] pr-[68px] gap-[25px] pb-[101px]">
-                <div className="flex flex-row gap-[13px]">
+            <div className="relative z-20 top-[3.188rem] left-[3.375rem] flex flex-col w-[25.688rem] h-max pt-[3.563rem] pb-[3.125rem] rounded-[1.875rem] bg-[#0D0D0D] animate-agentic-layer-shadow">
+              <div className="flex flex-col pl-[2.563rem] pr-[4.25rem] gap-[1.563rem] pb-[6.313rem]">
+                <div className="flex flex-row gap-[0.813rem]">
                   <div>
                     <img
                       src="/Images/agent/ai-magic.svg"
                       alt="bulletin point"
-                      className="w-[24px] h-[24px]"
+                      className="w-[1.5rem] h-[1.5rem]"
                     />
                   </div>
-                  <div className="text-[#D9D9D9] dmSansFont text-[20px] font-normal leading-normal">
+                  <div className="text-[#D9D9D9] dmSansFont text-[1.25rem] font-normal leading-normal">
                     Automate repetitive tasks
                   </div>
                 </div>
-                <div className="flex flex-row gap-[13px]">
+                <div className="flex flex-row gap-[0.813rem]">
                   <div>
                     <img
                       src="/Images/agent/ai-magic.svg"
                       alt="bulletin point"
-                      className="w-[24px] h-[24px]"
+                      className="w-[1.5rem] h-[1.5rem]"
                     />
                   </div>
-                  <div className="text-[#D9D9D9] dmSansFont text-[20px] font-normal leading-normal">
+                  <div className="text-[#D9D9D9] dmSansFont text-[1.25rem] font-normal leading-normal">
                     Unify Disconnected Tools
                   </div>
                 </div>
-                <div className="flex flex-row gap-[13px]">
+                <div className="flex flex-row gap-[0.813rem]">
                   <div>
                     <img
                       src="/Images/agent/ai-magic.svg"
                       alt="bulletin point"
-                      className="w-[24px] h-[24px]"
+                      className="w-[1.5rem] h-[1.5rem]"
                     />
                   </div>
-                  <div className="text-[#D9D9D9] dmSansFont text-[20px] font-normal leading-normal">
+                  <div className="text-[#D9D9D9] dmSansFont text-[1.25rem] font-normal leading-normal">
                     Accelerate Decision Making
                   </div>
                 </div>
-                <div className="flex flex-row gap-[13px]">
+                <div className="flex flex-row gap-[0.813rem]">
                   <div>
                     <img
                       src="/Images/agent/ai-magic.svg"
                       alt="bulletin point"
-                      className="w-[24px] h-[24px]"
+                      className="w-[1.5rem] h-[1.5rem]"
                     />
                   </div>
-                  <div className="text-[#D9D9D9] dmSansFont text-[20px] font-normal leading-normal">
+                  <div className="text-[#D9D9D9] dmSansFont text-[1.25rem] font-normal leading-normal">
                     Boost Team Efficiency
                   </div>
                 </div>
-                <div className="flex flex-row gap-[13px]">
+                <div className="flex flex-row gap-[0.813rem]">
                   <div>
                     <img
                       src="/Images/agent/ai-magic.svg"
                       alt="bulletin point"
-                      className="w-[24px] h-[24px]"
+                      className="w-[1.5rem] h-[1.5rem]"
                     />
                   </div>
-                  <div className="text-[#D9D9D9] dmSansFont text-[20px] font-normal leading-normal">
+                  <div className="text-[#D9D9D9] dmSansFont text-[1.25rem] font-normal leading-normal">
                     Scale Without Hiring
                   </div>
                 </div>
               </div>
-              <div className="text-white text-center dmSansFont text-[20px] font-normal leading-normal pl-[40px] pr-[52px] pb-[45px]">
+              <div className="text-white text-center dmSansFont text-[1.25rem] font-normal leading-normal pl-[2.5rem] pr-[3.25rem] pb-[2.813rem]">
                 Your tools stay the same. The way you work changes forever!
               </div>
-              <div className="px-[58px]">
-                <div className="flex w-[295px] px-[14px] py-[6px] justify-center items-center gap-[10px] bg-[#4285F4] rounded-[10px] text-center dmSansFont text-[20px] font-normal leading-normal text-white">
+              <div className="px-[3.625rem]">
+                <div className="flex w-[18.438rem] px-[0.875rem] py-[0.375rem] justify-center items-center gap-[0.625rem] bg-[#4285F4] rounded-[0.625rem] text-center dmSansFont text-[1.25rem] font-normal leading-normal text-white">
                   Supercharge Your Tools Now
                 </div>
               </div>

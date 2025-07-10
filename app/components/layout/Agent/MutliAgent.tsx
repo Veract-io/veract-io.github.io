@@ -61,10 +61,10 @@ export default function MutliAgent() {
   }, []);
   return (
     loaded && (
-      <div className="relative w-full h-max flex flex-col items-center justify-center pb-[364.5px]">
+      <div className="relative w-full h-max flex flex-col items-center justify-center pb-[22.781rem]">
         <AgentTitle title="Multi Agent" title_description="Optimize Operations Using Intelligent Collaborative Agents" description="By coordinating multiple AI agents, your everyday business tasks become smoother, faster, and more efficient"/>
         <div>
-            <div className="relative w-[1059.5px] h-[891.5px]">
+            <div className="relative w-[66.219rem] h-[55.719rem]">
             <img src="/Images/Agent/multi-agent-layer.svg" alt="MultiAgent" className="absolute z-[1000]"/>
             {agentsList.map((agent) => (
                 <div key={agent.id} className={`absolute ${agent.position}`}>
