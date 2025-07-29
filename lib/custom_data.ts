@@ -322,7 +322,7 @@ export const caseStudyData = {
         `${baseUrl}/Images/case-studies/incluway/Challenges/Incluway case study challenge video.mp4`,
       ],
       // "",
-      challenge_description: "BOTTLENECK",
+      challenge_description: "BOTTLENECK ",
       challenge_solution:
         "Designing an accessibility system that integrates with websites to support users—",
       challenge_solution_highlighted:
