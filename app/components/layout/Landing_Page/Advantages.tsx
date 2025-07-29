@@ -284,13 +284,13 @@ export default function Advantages() {
             onClick={() => {
               router.push('/case-studies');
             }}
-            className='w-[10rem] h-[2.75rem] relative flex flex-row items-center justify-center rounded-[2.5rem] bg-primary-blue lg:bg-transparent hover:bg-primary-blue transition-all duration-300 easeTransition cursor-pointer group'
+            className='w-[8.688rem] h-[2.75rem] relative flex flex-row items-center justify-center rounded-[2.5rem] bg-primary-blue lg:bg-transparent hover:bg-primary-blue transition-all duration-300 easeTransition cursor-pointer group'
           >
             <div
               className={`absolute ${isHovered || isMobile() || isTablet() ? 'left-[1rem]' : 'left-[1.75rem] md:left-[1.5rem]'} poppinsFont text-[1rem] text-white lg:text-black font-normal leading-[1.8em] text-center lg:group-hover:text-white transition-all duration-300 easeTransition`}
 
             >
-              More Projects
+              more projects
             </div>
             <img loading="lazy" src="/Icons/arrow-right.png" alt="arrow-right" className={`absolute ${isHovered || isMobile() || isTablet() ? 'left-[calc(100%-1.65rem)] opacity-100' : 'left-[calc(100%-3rem)] opacity-0'} transition-all duration-300 easeTransition`} />
           </div>

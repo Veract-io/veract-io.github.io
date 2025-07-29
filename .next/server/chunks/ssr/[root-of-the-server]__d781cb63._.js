@@ -190,7 +190,7 @@ const caseStudyData = {
             ]
         },
         key_features: {
-            title: "KEY FEATURES",
+            title: "Key Features",
             indication_color: "#FF7A3B",
             key_features_list: [
                 {
@@ -407,7 +407,7 @@ const caseStudyData = {
             ]
         },
         key_features: {
-            title: "KEY FEATURES",
+            title: "Key Features",
             indication_color: "#1F8BFF",
             key_features_list: [
                 {

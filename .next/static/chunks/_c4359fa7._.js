@@ -14,7 +14,7 @@ __turbopack_context__.s({
     "metadata": (()=>metadata),
     "navItems": (()=>navItems)
 });
-const baseUrl = "https://veract-website-assets.s3.ap-south-1.amazonaws.com";
+const baseUrl = 'https://veract-website-assets.s3.ap-south-1.amazonaws.com';
 const navItems = [
     {
         id: 1,
@@ -63,7 +63,7 @@ const caseStudyData = {
                 `${baseUrl}/Images/case-studies/thermal/ShowReel/tab view-thermal showreel.mp4`,
                 `${baseUrl}/Images/case-studies/thermal/ShowReel/mobile view-thermal showreel.mp4`
             ],
-            youtube_url: "https://www.youtube.com/embed/SI8GxhQg_oA?si=zzuciOt549NiVPer"
+            youtube_url: 'https://www.youtube.com/embed/SI8GxhQg_oA?si=zzuciOt549NiVPer'
         },
         description: {
             title: "A small glimpse",
@@ -166,7 +166,7 @@ const caseStudyData = {
             ]
         },
         key_features: {
-            title: "KEY FEATURES",
+            title: "Key Features",
             indication_color: "#FF7A3B",
             key_features_list: [
                 {
@@ -215,53 +215,53 @@ const caseStudyData = {
             faq_list: [
                 {
                     id: 1,
-                    title: "What is the purpose of the thermal imaging system for buffalo udders?",
-                    content: "The system uses infrared thermography to non-invasively monitor buffalo udder health, enabling early detection of mastitis by identifying abnormal temperature patterns."
+                    title: 'What is the purpose of the thermal imaging system for buffalo udders?',
+                    content: 'The system uses infrared thermography to non-invasively monitor buffalo udder health, enabling early detection of mastitis by identifying abnormal temperature patterns.'
                 },
                 {
                     id: 2,
-                    title: "How does infrared thermography help in mastitis detection?",
-                    content: "Mastitis causes inflammation, which increases local udder temperature. Infrared cameras detect these temperature changes early, often before visible symptoms appear."
+                    title: 'How does infrared thermography help in mastitis detection?',
+                    content: 'Mastitis causes inflammation, which increases local udder temperature. Infrared cameras detect these temperature changes early, often before visible symptoms appear.'
                 },
                 {
                     id: 3,
-                    title: "Is infrared thermography system safe for the animals?",
-                    content: "Yes, infrared thermography is a non-contact, radiation-free method, making it completely safe and stress-free for buffaloes."
+                    title: 'Is infrared thermography system safe for the animals?',
+                    content: 'Yes, infrared thermography is a non-contact, radiation-free method, making it completely safe and stress-free for buffaloes.'
                 },
                 {
                     id: 4,
-                    title: "Can the system track udder health over time?",
-                    content: "Absolutely. The system supports session-based tracking, allowing farmers and veterinarians to monitor temperature trends and detect issues early."
+                    title: 'Can the system track udder health over time?',
+                    content: 'Absolutely. The system supports session-based tracking, allowing farmers and veterinarians to monitor temperature trends and detect issues early.'
                 },
                 {
                     id: 5,
-                    title: "Does the system require an internet connection to work?",
-                    content: "The system supports offline functionality, enabling temperature analysis and data storage without a continuous internet connection."
+                    title: 'Does the system require an internet connection to work?',
+                    content: 'The system supports offline functionality, enabling temperature analysis and data storage without a continuous internet connection.'
                 },
                 {
                     id: 6,
-                    title: "How easy is it to integrate this system into existing veterinary workflows?",
-                    content: "The system is designed for seamless integration with veterinary workflows, supporting data export and compatibility with common veterinary software."
+                    title: 'How easy is it to integrate this system into existing veterinary workflows?',
+                    content: 'The system is designed for seamless integration with veterinary workflows, supporting data export and compatibility with common veterinary software.'
                 },
                 {
                     id: 7,
-                    title: "What kind of temperature analysis does the system provide?",
-                    content: "It offers detailed temperature mapping, highlighting hotspots and comparing readings to baseline healthy udder temperatures."
+                    title: 'What kind of temperature analysis does the system provide?',
+                    content: 'It offers detailed temperature mapping, highlighting hotspots and comparing readings to baseline healthy udder temperatures.'
                 },
                 {
                     id: 8,
-                    title: "Can this system reduce losses caused by mastitis?",
-                    content: "Yes, by enabling early detection and treatment, it helps reduce mastitis-related production losses and improves overall herd health."
+                    title: 'Can this system reduce losses caused by mastitis?',
+                    content: 'Yes, by enabling early detection and treatment, it helps reduce mastitis-related production losses and improves overall herd health.'
                 },
                 {
                     id: 9,
-                    title: "Is special training required to operate the thermal imaging system?",
-                    content: "The system is user-friendly with guided instructions, but basic training helps maximize accurate image capture and interpretation."
+                    title: 'Is special training required to operate the thermal imaging system?',
+                    content: 'The system is user-friendly with guided instructions, but basic training helps maximize accurate image capture and interpretation.'
                 },
                 {
                     id: 10,
-                    title: "What equipment is needed for this system?",
-                    content: "The primary equipment includes an infrared thermal camera and software for image analysis and session tracking."
+                    title: 'What equipment is needed for this system?',
+                    content: 'The primary equipment includes an infrared thermal camera and software for image analysis and session tracking.'
                 }
             ]
         }
@@ -280,7 +280,7 @@ const caseStudyData = {
                 `${baseUrl}/Images/case-studies/incluway/Challenges/TAblet.mp4`,
                 `${baseUrl}/Images/case-studies/incluway/Challenges/Mobile.mp4`
             ],
-            youtube_url: "https://www.youtube.com/embed/p22KMPdGIv0?si=yTUz-9F6k9d7gNMs"
+            youtube_url: 'https://www.youtube.com/embed/p22KMPdGIv0?si=yTUz-9F6k9d7gNMs'
         },
         description: {
             title: "A small glimpse",
@@ -383,7 +383,7 @@ const caseStudyData = {
             ]
         },
         key_features: {
-            title: "KEY FEATURES",
+            title: "Key Features",
             indication_color: "#1F8BFF",
             key_features_list: [
                 {
@@ -432,53 +432,53 @@ const caseStudyData = {
             faq_list: [
                 {
                     id: 1,
-                    title: "What is the Accessibility Widget?",
-                    content: "It is a lightweight, plug-and-play tool designed to enhance digital experiences for users with visual, motor, and cognitive impairments by providing real-time accessibility personalization."
+                    title: 'What is the Accessibility Widget?',
+                    content: 'It is a lightweight, plug-and-play tool designed to enhance digital experiences for users with visual, motor, and cognitive impairments by providing real-time accessibility personalization.'
                 },
                 {
                     id: 2,
-                    title: "Is the widget compliant with accessibility standards?",
-                    content: "Yes, the widget is fully compliant with WCAG 2.1 standards to ensure inclusive and accessible digital content."
+                    title: 'Is the widget compliant with accessibility standards?',
+                    content: 'Yes, the widget is fully compliant with WCAG 2.1 standards to ensure inclusive and accessible digital content.'
                 },
                 {
                     id: 3,
-                    title: "How easy is it to integrate the widget into my website?",
-                    content: "Integration is simple and requires minimal setup. The widget is plug-and-play, compatible with all major browsers and platforms."
+                    title: 'How easy is it to integrate the widget into my website?',
+                    content: 'Integration is simple and requires minimal setup. The widget is plug-and-play, compatible with all major browsers and platforms.'
                 },
                 {
                     id: 4,
-                    title: "Does the widget support users with motor impairments?",
-                    content: "Absolutely. It offers keyboard navigation support and customizable UI controls to assist users with motor disabilities."
+                    title: 'Does the widget support users with motor impairments?',
+                    content: 'Absolutely. It offers keyboard navigation support and customizable UI controls to assist users with motor disabilities.'
                 },
                 {
                     id: 5,
-                    title: "Can the widget personalize accessibility features in real-time?",
-                    content: "Yes, it allows real-time personalization to adapt the website interface based on individual user needs."
+                    title: 'Can the widget personalize accessibility features in real-time?',
+                    content: 'Yes, it allows real-time personalization to adapt the website interface based on individual user needs.'
                 },
                 {
                     id: 6,
-                    title: "Is the widget optimized for performance?",
-                    content: "Yes, it is lightweight and designed to minimize impact on website loading times and performance."
+                    title: 'Is the widget optimized for performance?',
+                    content: 'Yes, it is lightweight and designed to minimize impact on website loading times and performance.'
                 },
                 {
                     id: 7,
-                    title: "Which browsers does the widget support?",
-                    content: "The widget supports all major browsers including Chrome, Firefox, Safari, Edge, and Opera."
+                    title: 'Which browsers does the widget support?',
+                    content: 'The widget supports all major browsers including Chrome, Firefox, Safari, Edge, and Opera.'
                 },
                 {
                     id: 8,
-                    title: "Can this widget help my website meet ADA compliance?",
-                    content: "While the widget aids in improving accessibility and aligns with WCAG standards, full ADA compliance depends on overall website practices; this widget is a key tool in your accessibility strategy."
+                    title: 'Can this widget help my website meet ADA compliance?',
+                    content: 'While the widget aids in improving accessibility and aligns with WCAG standards, full ADA compliance depends on overall website practices; this widget is a key tool in your accessibility strategy.'
                 },
                 {
                     id: 9,
-                    title: "Is the widget customizable?",
-                    content: "Yes, it offers options to customize accessibility settings to fit the unique needs of your user base and branding."
+                    title: 'Is the widget customizable?',
+                    content: 'Yes, it offers options to customize accessibility settings to fit the unique needs of your user base and branding.'
                 },
                 {
                     id: 10,
-                    title: "Does the widget require an internet connection to work?",
-                    content: "The widget can operate offline once installed, ensuring accessibility features remain functional without constant internet access."
+                    title: 'Does the widget require an internet connection to work?',
+                    content: 'The widget can operate offline once installed, ensuring accessibility features remain functional without constant internet access.'
                 }
             ]
         }
@@ -512,7 +512,7 @@ const LandingPageData = {
         get_in_touch: "Get in touch",
         get_in_touch_arrow: `${baseUrl}/Images/LandingPage/Banner/arrowIconUp.png`,
         view_services_text: "View services",
-        banner_CTA_status: "active",
+        banner_CTA_status: 'active',
         banner_image_list: [
             {
                 id: 1,
@@ -561,7 +561,7 @@ const LandingPageData = {
             `${baseUrl}/Images/LandingPage/showReel/tab view home showreel.mp4`,
             `${baseUrl}/Images/LandingPage/showReel/mobile view home page showreel.mp4`
         ],
-        youtube_url: "https://www.youtube.com/embed/pFtxR-O78sY?si=t_x_0UF65Q1YaHFw"
+        youtube_url: 'https://www.youtube.com/embed/pFtxR-O78sY?si=t_x_0UF65Q1YaHFw'
     },
     aboutUs: {
         achievementsList: [
@@ -634,7 +634,7 @@ const LandingPageData = {
                 title: "ed tech",
                 description: "education platform",
                 status: "inactive",
-                route: "edtech"
+                route: 'edtech'
             },
             {
                 id: 2,
@@ -643,7 +643,7 @@ const LandingPageData = {
                 title: "infrared thermography",
                 description: "thermal imaging detects mastitis in dairy cattle",
                 status: "active",
-                route: "infrared-thermography"
+                route: 'infrared-thermography'
             },
             {
                 id: 3,
@@ -652,7 +652,7 @@ const LandingPageData = {
                 title: "e-commerce",
                 description: "payment enabled e-commerce web application",
                 status: "inactive",
-                route: "ecommerce"
+                route: 'ecommerce'
             },
             {
                 id: 4,
@@ -661,7 +661,7 @@ const LandingPageData = {
                 title: "accessibility",
                 description: "accessibility project",
                 status: "active",
-                route: "accessible-web-widget"
+                route: 'accessible-web-widget'
             }
         ]
     },
@@ -673,8 +673,8 @@ const LandingPageData = {
                 number: "[01]",
                 title: "Digital Transformation Strategy for Modern Businesses",
                 desc: [
-                    "Modernize operations using proven digital transformation tools and workflows.",
-                    "Web, mobile, or desktop applications — your stack is fully covered."
+                    'Modernize operations using proven digital transformation tools and workflows.',
+                    'Web, mobile, or desktop applications — your stack is fully covered.'
                 ],
                 highlighted_desc: [
                     'Modernize operations using proven <span class="text-primary-blue">digital transformation</span> tools and workflows.',
@@ -685,8 +685,8 @@ const LandingPageData = {
                 number: "[02]",
                 title: "Development Services for Startup Founders",
                 desc: [
-                    "Build faster, smarter, and with clarity.",
-                    "Our research-backed approach helps founders make informed product decisions."
+                    'Build faster, smarter, and with clarity.',
+                    'Our research-backed approach helps founders make informed product decisions.'
                 ],
                 highlighted_desc: [
                     'Build <span class="text-primary-blue">faster, smarter</span>, and with clarity.',
@@ -697,8 +697,8 @@ const LandingPageData = {
                 number: "[03]",
                 title: "Industrial IoT for Smarter Operations",
                 desc: [
-                    "Connect IoT devices to monitor, analyze, and automate in real time.",
-                    "Improve efficiency, reduce downtime, and act on actionable insights."
+                    'Connect IoT devices to monitor, analyze, and automate in real time.',
+                    'Improve efficiency, reduce downtime, and act on actionable insights.'
                 ],
                 highlighted_desc: [
                     'Connect <span class="text-primary-blue">IoT devices</span> to monitor, analyze, and automate in real time.',
@@ -709,8 +709,8 @@ const LandingPageData = {
                 number: "[04]",
                 title: "AI & Agentic AI for Intelligent Decision-Making",
                 desc: [
-                    "Leverage AI for smarter decisions and data-driven growth.",
-                    "Deploy agentic AI to automate tasks and adapt intelligently."
+                    'Leverage AI for smarter decisions and data-driven growth.',
+                    'Deploy agentic AI to automate tasks and adapt intelligently.'
                 ],
                 highlighted_desc: [
                     'Leverage <span class="text-primary-blue">AI</span> for smarter decisions and data-driven growth.',
@@ -721,12 +721,12 @@ const LandingPageData = {
                 number: "[05]",
                 title: "Machine Vision for Quality Control and Inspection",
                 desc: [
-                    "Automated defect detection, inspection, and classification at industrial scale.",
-                    "Boost precision, reduce errors, and scale with confidence."
+                    'Automated defect detection, inspection, and classification at industrial scale.',
+                    'Boost precision, reduce errors, and scale with confidence.'
                 ],
                 highlighted_desc: [
                     '<span class="text-primary-blue">Automated defect detection</span>, inspection, and classification at industrial scale.',
-                    "Boost precision, reduce errors, and scale with confidence."
+                    'Boost precision, reduce errors, and scale with confidence.'
                 ]
             }
         ]
@@ -832,7 +832,7 @@ const LandingPageData = {
         ]
     },
     faq: {
-        title: "Curious? Check our FAQs",
+        title: 'Curious? Check our FAQs',
         faq_list: [
             {
                 id: 1,
@@ -1037,7 +1037,7 @@ const AgentPageData = {
     banner: {
         about: "AI-DRIVEN EFFICIENCY",
         title: "Optimize Your Business Operations with AI Agents",
-        subtitle: `<span>Get a free consult, see AI Agent in action, and deploy your <span class="font-bold text-white">first agent—free.</span></span>`,
+        subtitle: "Unlock productivity like never before. Get a free consultation, see our AI agents in action, and deploy 1 intelligent agent in your workflow-at no cost",
         book_demo: "Book a free demo",
         view_case_study: "View case studies",
         banner_features: [
@@ -1240,102 +1240,102 @@ const caseStudiesHomePageData = {
 };
 const metadata = [
     {
-        slug: "infrared-thermography",
-        title: "Infrared Thermography",
-        description: "Thermal Imaging System for Buffalo Udder Health Monitoring",
+        slug: 'infrared-thermography',
+        title: 'Infrared Thermography',
+        description: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
         openGraph: {
-            title: "Thermal Imaging System for Buffalo Udder Health Monitoring",
-            description: "Monitor buffalo udder health with infrared thermography...",
-            type: "website"
+            title: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
+            description: 'Monitor buffalo udder health with infrared thermography...',
+            type: 'website'
         },
         twitter: {
-            card: "summary_large_image",
-            title: "Thermal Imaging System for Buffalo Udder Health Monitoring",
-            description: "Smart infrared system for mastitis detection in buffaloes."
+            card: 'summary_large_image',
+            title: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
+            description: 'Smart infrared system for mastitis detection in buffaloes.'
         },
         keywords: [
-            "buffalo udder health",
-            "mastitis detection",
-            "thermal imaging",
-            "infrared thermography",
-            "veterinary technology",
-            "livestock health monitoring",
-            "dairy farm management",
-            "non-invasive diagnosis",
-            "animal health AI",
-            "smart veterinary system"
+            'buffalo udder health',
+            'mastitis detection',
+            'thermal imaging',
+            'infrared thermography',
+            'veterinary technology',
+            'livestock health monitoring',
+            'dairy farm management',
+            'non-invasive diagnosis',
+            'animal health AI',
+            'smart veterinary system'
         ],
-        author: "Veract.co",
-        language: "en",
-        subject: "Thermal Imaging System for Buffalo Udder Health Monitoring",
-        industry: "Infrared Thermography",
+        author: 'Veract.co',
+        language: 'en',
+        subject: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
+        industry: 'Infrared Thermography',
         image: `${baseUrl}/Images/infrared-thermography.jpg`,
-        url: "https://veract.co/case-studies/infrared-thermography",
+        url: 'https://veract.co/case-studies/infrared-thermography',
         geo: {
-            region: "IN-TN",
-            placename: "Velachery, Chennai",
+            region: 'IN-TN',
+            placename: 'Velachery, Chennai',
             position: "12.9784;80.2214",
-            icbm: "12.9784, 80.2214"
+            icbm: '12.9784, 80.2214'
         },
         schema: {
             "@context": "https://schema.org",
             "@type": "CreativeWork",
-            name: "Infrared Thermography",
-            alternateName: "Thermal Imaging System for Buffalo Udder Health Monitoring",
-            url: "https://veract.co/case-studies/infrared-thermography",
-            author: {
+            "name": "Infrared Thermography",
+            "alternateName": "Thermal Imaging System for Buffalo Udder Health Monitoring",
+            "url": "https://veract.co/case-studies/infrared-thermography",
+            "author": {
                 "@type": "Organization",
-                name: "Veract.co",
-                url: "https://veract.co"
+                "name": "Veract.co",
+                "url": "https://veract.co"
             }
         }
     },
     {
-        slug: "accessible-web-widget",
-        title: "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
-        description: "Enhance website accessibility for users with visual, motor, and cognitive impairments. Our lightweight, WCAG-compliant widget offers real-time personalization, cross-browser support, and easy integration.",
+        slug: 'accessible-web-widget',
+        title: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
+        description: 'Enhance website accessibility for users with visual, motor, and cognitive impairments. Our lightweight, WCAG-compliant widget offers real-time personalization, cross-browser support, and easy integration.',
         openGraph: {
-            title: "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
+            title: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
             description: "Boost your website's inclusivity with our easy-to-integrate accessibility widget supporting visual, motor, and cognitive impairments. Fully WCAG-compliant and optimized for performance.",
-            type: "website"
+            type: 'website'
         },
         twitter: {
-            card: "summary_large_image",
-            title: "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
-            description: "Enhance website accessibility with our lightweight widget designed for all users. Real-time personalization and seamless integration."
+            card: 'summary_large_image',
+            title: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
+            description: 'Enhance website accessibility with our lightweight widget designed for all users. Real-time personalization and seamless integration.'
         },
         keywords: [
-            "accessibility widget",
-            "WCAG compliance",
-            "digital accessibility",
-            "accessibility plugin",
-            "visual impairment support",
-            "motor impairment accessibility",
-            "cognitive accessibility tool",
-            "ADA compliance",
-            "inclusive web design",
-            "accessibility software"
+            'accessibility widget',
+            'WCAG compliance',
+            'digital accessibility',
+            'accessibility plugin',
+            'visual impairment support',
+            'motor impairment accessibility',
+            'cognitive accessibility tool',
+            'ADA compliance',
+            'inclusive web design',
+            'accessibility software'
         ],
-        author: "Veract.co",
-        language: "en",
-        subject: "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
-        industry: "Accessibility, Web Development",
+        author: 'Veract.co',
+        language: 'en',
+        subject: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
+        industry: 'Accessibility, Web Development',
         image: `${baseUrl}/Images/accessibility-widget-preview.png`,
-        url: "https://veract.co/case-studies/accessible-web-widget",
+        url: 'https://veract.co/case-studies/accessible-web-widget',
         geo: {
-            region: "IN-TN",
-            placename: "Velachery, Chennai",
+            region: 'IN-TN',
+            placename: 'Velachery, Chennai',
             position: "12.9784;80.2214",
-            icbm: "12.9784, 80.2214"
+            icbm: '12.9784, 80.2214'
         },
         schema: {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            name: "Lightweight Accessibility Widget",
-            alternateName: "WCAG-Compliant & Plug-and-Play Accessibility Tool",
-            url: "https://veract.co/case-studies/accessible-web-widget",
-            applicationCategory: "AccessibilityTool",
-            operatingSystem: "All"
+            "name": "Lightweight Accessibility Widget",
+            "alternateName": "WCAG-Compliant & Plug-and-Play Accessibility Tool",
+            "url": "https://veract.co/case-studies/accessible-web-widget",
+            "applicationCategory": "AccessibilityTool",
+            "operatingSystem": "All"
         }
     }
 ];
@@ -3424,11 +3424,11 @@ function Advantages() {
                         onClick: ()=>{
                             router.push('/case-studies');
                         },
-                        className: "w-[10rem] h-[2.75rem] relative flex flex-row items-center justify-center rounded-[2.5rem] bg-primary-blue lg:bg-transparent hover:bg-primary-blue transition-all duration-300 easeTransition cursor-pointer group",
+                        className: "w-[8.688rem] h-[2.75rem] relative flex flex-row items-center justify-center rounded-[2.5rem] bg-primary-blue lg:bg-transparent hover:bg-primary-blue transition-all duration-300 easeTransition cursor-pointer group",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: `absolute ${isHovered || (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isMobile"])() || (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isTablet"])() ? 'left-[1rem]' : 'left-[1.75rem] md:left-[1.5rem]'} poppinsFont text-[1rem] text-white lg:text-black font-normal leading-[1.8em] text-center lg:group-hover:text-white transition-all duration-300 easeTransition`,
-                                children: "More Projects"
+                                children: "more projects"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/layout/Landing_Page/Advantages.tsx",
                                 lineNumber: 289,

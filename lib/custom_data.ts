@@ -1,38 +1,37 @@
-export const baseUrl =
-  "https://veract-website-assets.s3.ap-south-1.amazonaws.com";
+export const baseUrl = 'https://veract-website-assets.s3.ap-south-1.amazonaws.com';
 
 export const navItems = [
   {
     id: 1,
     name: "Home",
     link: "/",
-    status: "active",
+    status: "active"
   },
   {
     id: 2,
     name: "Services",
     link: "",
-    status: "inactive",
+    status: "inactive"
   },
   {
     id: 3,
     name: "Agentic AI",
     icon: `/Images/LandingPage/Banner/Join.svg`,
     link: "/agentic-ai",
-    status: "active",
+    status: "active"
   },
   {
     id: 4,
     name: "Case Studies",
     link: "/case-studies",
-    status: "active",
+    status: "active"
   },
   {
     id: 5,
     name: "Blogs",
     link: "",
-    status: "inactive",
-  },
+    status: "inactive"
+  }
 ];
 
 export const caseStudyData = {
@@ -46,13 +45,13 @@ export const caseStudyData = {
     },
     showReel: {
       title: "SHOWREEL",
-      video: [
-        `${baseUrl}/Images/case-studies/thermal/ShowReel/web view-thermal showwreel.mp4`,
-        `${baseUrl}/Images/case-studies/thermal/ShowReel/tab view-thermal showreel.mp4`,
-        `${baseUrl}/Images/case-studies/thermal/ShowReel/mobile view-thermal showreel.mp4`,
-      ],
-      youtube_url:
-        "https://www.youtube.com/embed/SI8GxhQg_oA?si=zzuciOt549NiVPer",
+      video:
+        [
+          `${baseUrl}/Images/case-studies/thermal/ShowReel/web view-thermal showwreel.mp4`,
+          `${baseUrl}/Images/case-studies/thermal/ShowReel/tab view-thermal showreel.mp4`,
+          `${baseUrl}/Images/case-studies/thermal/ShowReel/mobile view-thermal showreel.mp4`,
+        ],
+      youtube_url: 'https://www.youtube.com/embed/SI8GxhQg_oA?si=zzuciOt549NiVPer',
     },
     description: {
       title: "A small glimpse",
@@ -75,7 +74,7 @@ export const caseStudyData = {
       video: [
         `${baseUrl}/Images/case-studies/thermal/bottleneck video- web view.mp4`,
         `${baseUrl}/Images/case-studies/thermal/bottleneck-tab view video.mp4`,
-        `${baseUrl}/Images/case-studies/thermal/bottleneck video-mobile view.mp4`,
+        `${baseUrl}/Images/case-studies/thermal/bottleneck video-mobile view.mp4`
       ],
       // "",
       challenge_description: "BOTTLENECK",
@@ -167,7 +166,7 @@ export const caseStudyData = {
       ],
     },
     key_features: {
-      title: "KEY FEATURES",
+      title: "Key Features",
       indication_color: "#FF7A3B",
       key_features_list: [
         {
@@ -216,68 +215,55 @@ export const caseStudyData = {
       faq_list: [
         {
           id: 1,
-          title:
-            "What is the purpose of the thermal imaging system for buffalo udders?",
-          content:
-            "The system uses infrared thermography to non-invasively monitor buffalo udder health, enabling early detection of mastitis by identifying abnormal temperature patterns.",
+          title: 'What is the purpose of the thermal imaging system for buffalo udders?',
+          content: 'The system uses infrared thermography to non-invasively monitor buffalo udder health, enabling early detection of mastitis by identifying abnormal temperature patterns.'
         },
         {
           id: 2,
-          title: "How does infrared thermography help in mastitis detection?",
-          content:
-            "Mastitis causes inflammation, which increases local udder temperature. Infrared cameras detect these temperature changes early, often before visible symptoms appear.",
+          title: 'How does infrared thermography help in mastitis detection?',
+          content: 'Mastitis causes inflammation, which increases local udder temperature. Infrared cameras detect these temperature changes early, often before visible symptoms appear.'
         },
         {
           id: 3,
-          title: "Is infrared thermography system safe for the animals?",
-          content:
-            "Yes, infrared thermography is a non-contact, radiation-free method, making it completely safe and stress-free for buffaloes.",
+          title: 'Is infrared thermography system safe for the animals?',
+          content: 'Yes, infrared thermography is a non-contact, radiation-free method, making it completely safe and stress-free for buffaloes.'
         },
         {
           id: 4,
-          title: "Can the system track udder health over time?",
-          content:
-            "Absolutely. The system supports session-based tracking, allowing farmers and veterinarians to monitor temperature trends and detect issues early.",
+          title: 'Can the system track udder health over time?',
+          content: 'Absolutely. The system supports session-based tracking, allowing farmers and veterinarians to monitor temperature trends and detect issues early.'
         },
         {
           id: 5,
-          title: "Does the system require an internet connection to work?",
-          content:
-            "The system supports offline functionality, enabling temperature analysis and data storage without a continuous internet connection.",
+          title: 'Does the system require an internet connection to work?',
+          content: 'The system supports offline functionality, enabling temperature analysis and data storage without a continuous internet connection.'
         },
         {
           id: 6,
-          title:
-            "How easy is it to integrate this system into existing veterinary workflows?",
-          content:
-            "The system is designed for seamless integration with veterinary workflows, supporting data export and compatibility with common veterinary software.",
+          title: 'How easy is it to integrate this system into existing veterinary workflows?',
+          content: 'The system is designed for seamless integration with veterinary workflows, supporting data export and compatibility with common veterinary software.'
         },
         {
           id: 7,
-          title: "What kind of temperature analysis does the system provide?",
-          content:
-            "It offers detailed temperature mapping, highlighting hotspots and comparing readings to baseline healthy udder temperatures.",
+          title: 'What kind of temperature analysis does the system provide?',
+          content: 'It offers detailed temperature mapping, highlighting hotspots and comparing readings to baseline healthy udder temperatures.'
         },
         {
           id: 8,
-          title: "Can this system reduce losses caused by mastitis?",
-          content:
-            "Yes, by enabling early detection and treatment, it helps reduce mastitis-related production losses and improves overall herd health.",
+          title: 'Can this system reduce losses caused by mastitis?',
+          content: 'Yes, by enabling early detection and treatment, it helps reduce mastitis-related production losses and improves overall herd health.'
         },
         {
           id: 9,
-          title:
-            "Is special training required to operate the thermal imaging system?",
-          content:
-            "The system is user-friendly with guided instructions, but basic training helps maximize accurate image capture and interpretation.",
+          title: 'Is special training required to operate the thermal imaging system?',
+          content: 'The system is user-friendly with guided instructions, but basic training helps maximize accurate image capture and interpretation.'
         },
         {
           id: 10,
-          title: "What equipment is needed for this system?",
-          content:
-            "The primary equipment includes an infrared thermal camera and software for image analysis and session tracking.",
+          title: 'What equipment is needed for this system?',
+          content: 'The primary equipment includes an infrared thermal camera and software for image analysis and session tracking.'
         },
-      ],
+      ]
     },
   },
   "accessible-web-widget": {
@@ -290,13 +276,13 @@ export const caseStudyData = {
     },
     showReel: {
       title: "SHOWREEL",
-      video: [
-        `${baseUrl}/Images/case-studies/incluway/ShowReel/Incluway showreel- web view.mp4`,
-        `${baseUrl}/Images/case-studies/incluway/Challenges/TAblet.mp4`,
-        `${baseUrl}/Images/case-studies/incluway/Challenges/Mobile.mp4`,
-      ],
-      youtube_url:
-        "https://www.youtube.com/embed/p22KMPdGIv0?si=yTUz-9F6k9d7gNMs",
+      video:
+        [
+          `${baseUrl}/Images/case-studies/incluway/ShowReel/Incluway showreel- web view.mp4`,
+          `${baseUrl}/Images/case-studies/incluway/Challenges/TAblet.mp4`,
+          `${baseUrl}/Images/case-studies/incluway/Challenges/Mobile.mp4`,
+        ],
+      youtube_url: 'https://www.youtube.com/embed/p22KMPdGIv0?si=yTUz-9F6k9d7gNMs',
     },
     description: {
       title: "A small glimpse",
@@ -319,7 +305,7 @@ export const caseStudyData = {
       video: [
         `${baseUrl}/Images/case-studies/incluway/Challenges/Incluway case study challenge video.mp4`,
         `${baseUrl}/Images/case-studies/incluway/Challenges/Incluway case study challenge video.mp4`,
-        `${baseUrl}/Images/case-studies/incluway/Challenges/Incluway case study challenge video.mp4`,
+        `${baseUrl}/Images/case-studies/incluway/Challenges/Incluway case study challenge video.mp4`
       ],
       // "",
       challenge_description: "BOTTLENECK ",
@@ -411,7 +397,7 @@ export const caseStudyData = {
       ],
     },
     key_features: {
-      title: "KEY FEATURES",
+      title: "Key Features",
       indication_color: "#1F8BFF",
       key_features_list: [
         {
@@ -460,68 +446,57 @@ export const caseStudyData = {
       faq_list: [
         {
           id: 1,
-          title: "What is the Accessibility Widget?",
-          content:
-            "It is a lightweight, plug-and-play tool designed to enhance digital experiences for users with visual, motor, and cognitive impairments by providing real-time accessibility personalization.",
+          title: 'What is the Accessibility Widget?',
+          content: 'It is a lightweight, plug-and-play tool designed to enhance digital experiences for users with visual, motor, and cognitive impairments by providing real-time accessibility personalization.',
         },
         {
           id: 2,
-          title: "Is the widget compliant with accessibility standards?",
-          content:
-            "Yes, the widget is fully compliant with WCAG 2.1 standards to ensure inclusive and accessible digital content.",
+          title: 'Is the widget compliant with accessibility standards?',
+          content: 'Yes, the widget is fully compliant with WCAG 2.1 standards to ensure inclusive and accessible digital content.',
         },
         {
           id: 3,
-          title: "How easy is it to integrate the widget into my website?",
-          content:
-            "Integration is simple and requires minimal setup. The widget is plug-and-play, compatible with all major browsers and platforms.",
+          title: 'How easy is it to integrate the widget into my website?',
+          content: 'Integration is simple and requires minimal setup. The widget is plug-and-play, compatible with all major browsers and platforms.',
         },
         {
           id: 4,
-          title: "Does the widget support users with motor impairments?",
-          content:
-            "Absolutely. It offers keyboard navigation support and customizable UI controls to assist users with motor disabilities.",
+          title: 'Does the widget support users with motor impairments?',
+          content: 'Absolutely. It offers keyboard navigation support and customizable UI controls to assist users with motor disabilities.',
         },
         {
           id: 5,
-          title:
-            "Can the widget personalize accessibility features in real-time?",
-          content:
-            "Yes, it allows real-time personalization to adapt the website interface based on individual user needs.",
+          title: 'Can the widget personalize accessibility features in real-time?',
+          content: 'Yes, it allows real-time personalization to adapt the website interface based on individual user needs.',
         },
         {
           id: 6,
-          title: "Is the widget optimized for performance?",
-          content:
-            "Yes, it is lightweight and designed to minimize impact on website loading times and performance.",
+          title: 'Is the widget optimized for performance?',
+          content: 'Yes, it is lightweight and designed to minimize impact on website loading times and performance.',
         },
         {
           id: 7,
-          title: "Which browsers does the widget support?",
-          content:
-            "The widget supports all major browsers including Chrome, Firefox, Safari, Edge, and Opera.",
+          title: 'Which browsers does the widget support?',
+          content: 'The widget supports all major browsers including Chrome, Firefox, Safari, Edge, and Opera.',
         },
         {
           id: 8,
-          title: "Can this widget help my website meet ADA compliance?",
-          content:
-            "While the widget aids in improving accessibility and aligns with WCAG standards, full ADA compliance depends on overall website practices; this widget is a key tool in your accessibility strategy.",
+          title: 'Can this widget help my website meet ADA compliance?',
+          content: 'While the widget aids in improving accessibility and aligns with WCAG standards, full ADA compliance depends on overall website practices; this widget is a key tool in your accessibility strategy.',
         },
         {
           id: 9,
-          title: "Is the widget customizable?",
-          content:
-            "Yes, it offers options to customize accessibility settings to fit the unique needs of your user base and branding.",
+          title: 'Is the widget customizable?',
+          content: 'Yes, it offers options to customize accessibility settings to fit the unique needs of your user base and branding.',
         },
         {
           id: 10,
-          title: "Does the widget require an internet connection to work?",
-          content:
-            "The widget can operate offline once installed, ensuring accessibility features remain functional without constant internet access.",
+          title: 'Does the widget require an internet connection to work?',
+          content: 'The widget can operate offline once installed, ensuring accessibility features remain functional without constant internet access.',
         },
-      ],
-    },
-  },
+      ]
+    }
+  }
 };
 
 export const LandingPageData = {
@@ -545,7 +520,7 @@ export const LandingPageData = {
       {
         id: 4,
         word: "AI Agentic Workflows", //IoT
-      },
+      }
     ],
     description_primary:
       "Delivering scalable technology that powers modern digital experiences, AI",
@@ -553,7 +528,7 @@ export const LandingPageData = {
     get_in_touch: "Get in touch",
     get_in_touch_arrow: `${baseUrl}/Images/LandingPage/Banner/arrowIconUp.png`,
     view_services_text: "View services", //View services
-    banner_CTA_status: "active",
+    banner_CTA_status: 'active',
     banner_image_list: [
       {
         id: 1,
@@ -597,13 +572,9 @@ export const LandingPageData = {
   },
   showReel: {
     title: "SHOWREEL",
-    video: [
-      `${baseUrl}/Images/LandingPage/showReel/homepage showreel web view.mp4`,
-      `${baseUrl}/Images/LandingPage/showReel/tab view home showreel.mp4`,
-      `${baseUrl}/Images/LandingPage/showReel/mobile view home page showreel.mp4`,
-    ],
-    youtube_url:
-      "https://www.youtube.com/embed/pFtxR-O78sY?si=t_x_0UF65Q1YaHFw",
+    video:
+      [`${baseUrl}/Images/LandingPage/showReel/homepage showreel web view.mp4`, `${baseUrl}/Images/LandingPage/showReel/tab view home showreel.mp4`, `${baseUrl}/Images/LandingPage/showReel/mobile view home page showreel.mp4`],
+    youtube_url: 'https://www.youtube.com/embed/pFtxR-O78sY?si=t_x_0UF65Q1YaHFw',
   },
   aboutUs: {
     achievementsList: [
@@ -639,8 +610,7 @@ export const LandingPageData = {
         title: "Bespoke Software, Tailored to Your Business Needs",
         // /Images/LandingPage/Advantages/Bespoke_Software_Tailored_to_Your_Business_Needs.jpg
         bg: `bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Advantages/img1.webp')] bg-cover bg-center object-center group-hover:bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Hover.png')]`,
-        description:
-          "Custom software solutions designed around your workflows — not off-the-shelf",
+        description: "Custom software solutions designed around your workflows — not off-the-shelf",
         gradient:
           "bg-[linear-gradient(93deg,_rgb(31,139,255)_42.49%,_rgb(255,255,255)_100%)]",
         blobWidth: "w-[8rem]",
@@ -649,8 +619,7 @@ export const LandingPageData = {
         title: "Digital Transformation Strategy with the Right Technologies",
         // /Images/LandingPage/Advantages/Digital_Transformation_Strategy_with_the_Right_Technologies.jpg
         bg: `bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Advantages/img2.jpg')] bg-cover bg-center object-center group-hover:bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Hover.png')]`,
-        description:
-          "Modernize operations with digital tools that serve real business goals",
+        description: "Modernize operations with digital tools that serve real business goals",
         gradient:
           "bg-[linear-gradient(93deg,_rgb(31,139,255)_42.49%,_rgb(255,255,255)_100%)]",
         blobWidth: "w-[8rem]",
@@ -659,8 +628,7 @@ export const LandingPageData = {
         title: "Flexible Engagement Models for Agile Development",
         // /Images/LandingPage/Advantages/Flexible_Engagement_Models_for_Agile_Development.jpg
         bg: `bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Advantages/img3.webp')] bg-cover bg-center object-center group-hover:bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Hover.png')]`,
-        description:
-          "Start small, scale fast, or pause — flexibility built into the process",
+        description: "Start small, scale fast, or pause — flexibility built into the process",
         gradient:
           "bg-[linear-gradient(93deg,_rgb(31,139,255)_42.49%,_rgb(255,255,255)_100%)]",
         blobWidth: "w-[10rem]",
@@ -669,8 +637,7 @@ export const LandingPageData = {
         title: "Measurable Outcomes Through AI, IoT, and Machine Vision",
         // /Images/LandingPage/Advantages/Measurable_Outcomes_Through_AI_IoT_and_Machine_Vision.jpg
         bg: `bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Advantages/img4.webp')] bg-cover bg-center object-center group-hover:bg-[url('https://veract-website-assets.s3.ap-south-1.amazonaws.com/Images/LandingPage/Hover.png')]`,
-        description:
-          "Drive impact with intelligent systems and real-time performance insights",
+        description: "Drive impact with intelligent systems and real-time performance insights",
         gradient:
           "bg-[linear-gradient(93deg,_rgb(31,139,255)_42.49%,_rgb(255,255,255)_100%)]",
         blobWidth: "w-[10rem]",
@@ -684,7 +651,7 @@ export const LandingPageData = {
         title: "ed tech",
         description: "education platform",
         status: "inactive",
-        route: "edtech",
+        route: 'edtech',
       },
       {
         id: 2,
@@ -693,7 +660,7 @@ export const LandingPageData = {
         title: "infrared thermography",
         description: "thermal imaging detects mastitis in dairy cattle",
         status: "active",
-        route: "infrared-thermography",
+        route: 'infrared-thermography',
       },
       {
         id: 3,
@@ -702,7 +669,7 @@ export const LandingPageData = {
         title: "e-commerce",
         description: "payment enabled e-commerce web application",
         status: "inactive",
-        route: "ecommerce",
+        route: 'ecommerce',
       },
       {
         id: 4,
@@ -711,76 +678,75 @@ export const LandingPageData = {
         title: "accessibility",
         description: "accessibility project",
         status: "active",
-        route: "accessible-web-widget",
+        route: 'accessible-web-widget',
       },
     ],
   },
   services: {
     title: "Our Service",
-    description:
-      "Take a look at our handpicked case studies showcasing real-world tech solutions.A quick glimpse into the impact we create.",
+    description: "Take a look at our handpicked case studies showcasing real-world tech solutions.A quick glimpse into the impact we create.",
     service_list: [
       {
         number: "[01]",
         title: "Digital Transformation Strategy for Modern Businesses",
         desc: [
-          "Modernize operations using proven digital transformation tools and workflows.",
-          "Web, mobile, or desktop applications — your stack is fully covered.",
+          'Modernize operations using proven digital transformation tools and workflows.',
+          'Web, mobile, or desktop applications — your stack is fully covered.'
         ],
         highlighted_desc: [
           'Modernize operations using proven <span class="text-primary-blue">digital transformation</span> tools and workflows.',
-          '<span class="text-primary-blue">Web, mobile, or desktop</span> applications — your stack is fully covered.',
-        ],
+          '<span class="text-primary-blue">Web, mobile, or desktop</span> applications — your stack is fully covered.'
+        ]
       },
       {
         number: "[02]",
         title: "Development Services for Startup Founders",
         desc: [
-          "Build faster, smarter, and with clarity.",
-          "Our research-backed approach helps founders make informed product decisions.",
+          'Build faster, smarter, and with clarity.',
+          'Our research-backed approach helps founders make informed product decisions.'
         ],
         highlighted_desc: [
           'Build <span class="text-primary-blue">faster, smarter</span>, and with clarity.',
-          'Our <span class="text-primary-blue">research-backed approach</span> helps founders make informed product decisions.',
-        ],
+          'Our <span class="text-primary-blue">research-backed approach</span> helps founders make informed product decisions.'
+        ]
       },
       {
         number: "[03]",
         title: "Industrial IoT for Smarter Operations",
         desc: [
-          "Connect IoT devices to monitor, analyze, and automate in real time.",
-          "Improve efficiency, reduce downtime, and act on actionable insights.",
+          'Connect IoT devices to monitor, analyze, and automate in real time.',
+          'Improve efficiency, reduce downtime, and act on actionable insights.'
         ],
         highlighted_desc: [
           'Connect <span class="text-primary-blue">IoT devices</span> to monitor, analyze, and automate in real time.',
-          'Improve <span class="text-primary-blue">efficiency</span>, reduce <span class="text-primary-blue">downtime</span>, and act on actionable insights.',
-        ],
+          'Improve <span class="text-primary-blue">efficiency</span>, reduce <span class="text-primary-blue">downtime</span>, and act on actionable insights.'
+        ]
       },
       {
         number: "[04]",
         title: "AI & Agentic AI for Intelligent Decision-Making",
         desc: [
-          "Leverage AI for smarter decisions and data-driven growth.",
-          "Deploy agentic AI to automate tasks and adapt intelligently.",
+          'Leverage AI for smarter decisions and data-driven growth.',
+          'Deploy agentic AI to automate tasks and adapt intelligently.'
         ],
         highlighted_desc: [
           'Leverage <span class="text-primary-blue">AI</span> for smarter decisions and data-driven growth.',
-          'Deploy <span class="text-primary-blue">agentic AI</span> to automate tasks and adapt intelligently.',
-        ],
+          'Deploy <span class="text-primary-blue">agentic AI</span> to automate tasks and adapt intelligently.'
+        ]
       },
       {
         number: "[05]",
         title: "Machine Vision for Quality Control and Inspection",
         desc: [
-          "Automated defect detection, inspection, and classification at industrial scale.",
-          "Boost precision, reduce errors, and scale with confidence.",
+          'Automated defect detection, inspection, and classification at industrial scale.',
+          'Boost precision, reduce errors, and scale with confidence.'
         ],
         highlighted_desc: [
           '<span class="text-primary-blue">Automated defect detection</span>, inspection, and classification at industrial scale.',
-          "Boost precision, reduce errors, and scale with confidence.",
-        ],
+          'Boost precision, reduce errors, and scale with confidence.'
+        ]
       },
-    ],
+    ]
   },
   we_work_with: {
     title: "We Work With",
@@ -847,24 +813,21 @@ export const LandingPageData = {
     testimonial_list: [
       {
         name: "Hare Priyaa Rajendran",
-        quote:
-          "I am amazed the way Veract took the initial discussion of our HRMS product MyTrackie. They swiftly got into the details and educated me wherever required. Really thrilled to work with Veract for the software upgrades of our product. I would certainly recommend Veract for product development and technical consulting.",
+        quote: "I am amazed the way Veract took the initial discussion of our HRMS product MyTrackie. They swiftly got into the details and educated me wherever required. Really thrilled to work with Veract for the software upgrades of our product. I would certainly recommend Veract for product development and technical consulting.",
         image: `${baseUrl}/Images/LandingPage/Testimonial/harepriyaa.jpeg`,
         company: "Geeraj Business Solutions",
         role: "Founder",
       },
       {
         name: "Mahendra Vadivelu",
-        quote:
-          "We engaged Veract for an Angular project which required custom printing domain knowledge and involved high level of complexity of the legacy system. Veract team took complete ownership of client coordination, project management and project delivery as well. Focus on the deliverables and technical expertise stood out during our engagement. Thank you Veract for all your splendid work in this engagement. I will assure you that you will be our first go to team for any outsourcing need.",
+        quote: "We engaged Veract for an Angular project which required custom printing domain knowledge and involved high level of complexity of the legacy system. Veract team took complete ownership of client coordination, project management and project delivery as well. Focus on the deliverables and technical expertise stood out during our engagement. Thank you Veract for all your splendid work in this engagement. I will assure you that you will be our first go to team for any outsourcing need.",
         image: `${baseUrl}/Images/LandingPage/Testimonial/mahendra.jpg`,
         company: "Mako IT Lab",
         role: "CEO",
       },
       {
         name: "Salil Nair",
-        quote:
-          "We engaged with Veract team from an early stage and they helped build out our 'KiViStar' App from basic day one concept. Their choice of architecture, framework and ability to deliver the product helped us go to market quickly. This helped us focus on our core work. The team at Veract developed software like their own product! We continue to engage with Veract for our technical development requirements.",
+        quote: "We engaged with Veract team from an early stage and they helped build out our 'KiViStar' App from basic day one concept. Their choice of architecture, framework and ability to deliver the product helped us go to market quickly. This helped us focus on our core work. The team at Veract developed software like their own product! We continue to engage with Veract for our technical development requirements.",
         image: `${baseUrl}/Images/LandingPage/Testimonial/salil.png`,
         company: "Agrosperity Tech Solutions",
         role: "",
@@ -878,8 +841,7 @@ export const LandingPageData = {
       },
       {
         name: "Bijoy KT",
-        quote:
-          "Our engagement with veract for Datacenter Mart project has been a fantastic experience. The team was very prompt and supportive throughout the project. We are very happy with the outcome and we expect to start the second phase soon. This is a very complex project because we did not have an exact comparison to show them but they grasped the requirements well and was able to deliver what we expected.",
+        quote: "Our engagement with veract for Datacenter Mart project has been a fantastic experience. The team was very prompt and supportive throughout the project. We are very happy with the outcome and we expect to start the second phase soon. This is a very complex project because we did not have an exact comparison to show them but they grasped the requirements well and was able to deliver what we expected.",
         image: `${baseUrl}/Images/LandingPage/Testimonial/Bijoy.jpg`,
         company: "Data Center Mart",
         role: "",
@@ -887,39 +849,34 @@ export const LandingPageData = {
     ],
   },
   faq: {
-    title: "Curious? Check our FAQs",
+    title: 'Curious? Check our FAQs',
     faq_list: [
       {
         id: 1,
         title: "What does Veract.co do?",
-        content:
-          "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions.",
+        content: "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions."
       },
       {
         id: 2,
         title: "What does Veract.co do?",
-        content:
-          "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions.",
+        content: "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions."
       },
       {
         id: 3,
         title: "What does Veract.co do?",
-        content:
-          "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions.",
+        content: "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions."
       },
       {
         id: 4,
         title: "What does Veract.co do?",
-        content:
-          "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions.",
+        content: "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions."
       },
       {
         id: 5,
         title: "What does Veract.co do?",
-        content:
-          "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions.",
+        content: "Veract.co helps businesses modernize and automate operations using AI, machine vision, IoT systems, and custom software solutions."
       },
-    ],
+    ]
   },
   footer: {
     description:
@@ -972,32 +929,32 @@ export const LandingPageData = {
             id: 1,
             title: "Agentic AI",
             link: "/agentic-ai",
-            status: "active",
+            status: "active"
           },
           {
             id: 2,
             title: "Services",
             link: "scroll-to-section",
-            status: "active",
+            status: "active"
           },
           {
             id: 3,
             title: "Case Studies",
             link: "/case-studies",
-            status: "active",
+            status: "active"
           },
           {
             id: 4,
             title: "Contact Us",
             link: "/contact-us",
-            status: "active",
+            status: "active"
           },
           {
             id: 5,
             title: "Blogs",
             link: "",
-            status: "inactive",
-          },
+            status: "inactive"
+          }
         ],
       },
       services: {
@@ -1007,59 +964,59 @@ export const LandingPageData = {
             id: 1,
             title: "Digital Transformation",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 2,
             title: "Development Services",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 3,
             title: "Internet of things - IoT",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 4,
             title: "Machine Vision",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 5,
             title: "Infrared Thermography",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 6,
             title: "Workflow Automation",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 7,
             title: "Agentic AI",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 8,
             title: "Custom Mobile Application",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 9,
             title: "Custom Web Application",
             link: "",
-            status: "inactive",
+            status: "inactive"
           },
           {
             id: 10,
-          },
+          }
         ],
       },
       contact: {
@@ -1100,7 +1057,8 @@ export const AgentPageData = {
   banner: {
     about: "AI-DRIVEN EFFICIENCY",
     title: "Optimize Your Business Operations with AI Agents",
-    subtitle: `<span>Get a free consult, see AI Agent in action, and deploy your <span class="font-bold text-white">first agent—free.</span></span>`,
+    subtitle:
+      "Unlock productivity like never before. Get a free consultation, see our AI agents in action, and deploy 1 intelligent agent in your workflow-at no cost",
     book_demo: "Book a free demo",
     view_case_study: "View case studies",
     banner_features: [
@@ -1172,8 +1130,7 @@ export const AgentPageData = {
 
 export const caseStudiesHomePageData = {
   header: "Our Projects",
-  subHeader:
-    "From designing intelligent concepts to delivering scalable solutions, we're your agile, expert-driven team making technology work for you!",
+  subHeader: "From designing intelligent concepts to delivering scalable solutions, we're your agile, expert-driven team making technology work for you!",
   caseStudiesTitleList: [
     { id: 1, name: "Thermal Vision" },
     { id: 2, name: "Accessibility" },
@@ -1292,109 +1249,105 @@ export const caseStudiesHomePageData = {
 
 export const metadata = [
   {
-    slug: "infrared-thermography",
-    title: "Infrared Thermography",
-    description: "Thermal Imaging System for Buffalo Udder Health Monitoring",
+    slug: 'infrared-thermography',
+    title: 'Infrared Thermography',
+    description: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
     openGraph: {
-      title: "Thermal Imaging System for Buffalo Udder Health Monitoring",
-      description: "Monitor buffalo udder health with infrared thermography...",
-      type: "website",
+      title: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
+      description: 'Monitor buffalo udder health with infrared thermography...',
+      type: 'website',
     },
     twitter: {
-      card: "summary_large_image",
-      title: "Thermal Imaging System for Buffalo Udder Health Monitoring",
-      description: "Smart infrared system for mastitis detection in buffaloes.",
+      card: 'summary_large_image',
+      title: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
+      description: 'Smart infrared system for mastitis detection in buffaloes.',
     },
     keywords: [
-      "buffalo udder health",
-      "mastitis detection",
-      "thermal imaging",
-      "infrared thermography",
-      "veterinary technology",
-      "livestock health monitoring",
-      "dairy farm management",
-      "non-invasive diagnosis",
-      "animal health AI",
-      "smart veterinary system",
+      'buffalo udder health',
+      'mastitis detection',
+      'thermal imaging',
+      'infrared thermography',
+      'veterinary technology',
+      'livestock health monitoring',
+      'dairy farm management',
+      'non-invasive diagnosis',
+      'animal health AI',
+      'smart veterinary system'
     ],
-    author: "Veract.co",
-    language: "en",
-    subject: "Thermal Imaging System for Buffalo Udder Health Monitoring",
-    industry: "Infrared Thermography",
+    author: 'Veract.co',
+    language: 'en',
+    subject: 'Thermal Imaging System for Buffalo Udder Health Monitoring',
+    industry: 'Infrared Thermography',
     image: `${baseUrl}/Images/infrared-thermography.jpg`,
-    url: "https://veract.co/case-studies/infrared-thermography",
+    url: 'https://veract.co/case-studies/infrared-thermography',
     geo: {
-      region: "IN-TN",
-      placename: "Velachery, Chennai",
+      region: 'IN-TN',
+      placename: 'Velachery, Chennai',
       position: "12.9784;80.2214",
-      icbm: "12.9784, 80.2214",
+      icbm: '12.9784, 80.2214',
     },
     schema: {
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Infrared Thermography",
-      alternateName:
-        "Thermal Imaging System for Buffalo Udder Health Monitoring",
-      url: "https://veract.co/case-studies/infrared-thermography",
-      author: {
+      "name": "Infrared Thermography",
+      "alternateName": "Thermal Imaging System for Buffalo Udder Health Monitoring",
+      "url": "https://veract.co/case-studies/infrared-thermography",
+      "author": {
         "@type": "Organization",
-        name: "Veract.co",
-        url: "https://veract.co",
+        "name": "Veract.co",
+        "url": "https://veract.co"
       },
     },
   },
   {
-    slug: "accessible-web-widget",
-    title: "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
+    slug: 'accessible-web-widget',
+    title: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
     description:
-      "Enhance website accessibility for users with visual, motor, and cognitive impairments. Our lightweight, WCAG-compliant widget offers real-time personalization, cross-browser support, and easy integration.",
+      'Enhance website accessibility for users with visual, motor, and cognitive impairments. Our lightweight, WCAG-compliant widget offers real-time personalization, cross-browser support, and easy integration.',
     openGraph: {
-      title:
-        "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
+      title: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
       description:
         "Boost your website's inclusivity with our easy-to-integrate accessibility widget supporting visual, motor, and cognitive impairments. Fully WCAG-compliant and optimized for performance.",
-      type: "website",
+      type: 'website',
     },
     twitter: {
-      card: "summary_large_image",
-      title:
-        "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
+      card: 'summary_large_image',
+      title: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
       description:
-        "Enhance website accessibility with our lightweight widget designed for all users. Real-time personalization and seamless integration.",
+        'Enhance website accessibility with our lightweight widget designed for all users. Real-time personalization and seamless integration.',
     },
     keywords: [
-      "accessibility widget",
-      "WCAG compliance",
-      "digital accessibility",
-      "accessibility plugin",
-      "visual impairment support",
-      "motor impairment accessibility",
-      "cognitive accessibility tool",
-      "ADA compliance",
-      "inclusive web design",
-      "accessibility software",
+      'accessibility widget',
+      'WCAG compliance',
+      'digital accessibility',
+      'accessibility plugin',
+      'visual impairment support',
+      'motor impairment accessibility',
+      'cognitive accessibility tool',
+      'ADA compliance',
+      'inclusive web design',
+      'accessibility software'
     ],
-    author: "Veract.co",
-    language: "en",
-    subject:
-      "Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play",
-    industry: "Accessibility, Web Development",
+    author: 'Veract.co',
+    language: 'en',
+    subject: 'Lightweight Accessibility Widget | WCAG-Compliant & Plug-and-Play',
+    industry: 'Accessibility, Web Development',
     image: `${baseUrl}/Images/accessibility-widget-preview.png`,
-    url: "https://veract.co/case-studies/accessible-web-widget",
+    url: 'https://veract.co/case-studies/accessible-web-widget',
     geo: {
-      region: "IN-TN",
-      placename: "Velachery, Chennai",
+      region: 'IN-TN',
+      placename: 'Velachery, Chennai',
       position: "12.9784;80.2214",
-      icbm: "12.9784, 80.2214",
+      icbm: '12.9784, 80.2214',
     },
     schema: {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      name: "Lightweight Accessibility Widget",
-      alternateName: "WCAG-Compliant & Plug-and-Play Accessibility Tool",
-      url: "https://veract.co/case-studies/accessible-web-widget",
-      applicationCategory: "AccessibilityTool",
-      operatingSystem: "All",
+      "name": "Lightweight Accessibility Widget",
+      "alternateName": "WCAG-Compliant & Plug-and-Play Accessibility Tool",
+      "url": "https://veract.co/case-studies/accessible-web-widget",
+      "applicationCategory": "AccessibilityTool",
+      "operatingSystem": "All",
     },
   },
-];
+]

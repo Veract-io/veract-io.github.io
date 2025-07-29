@@ -30,7 +30,7 @@ export default function AgentBanner() {
           </div>
           <div className="interFont text-white w-[100%] flex flex-col items-center justify-center mt-[6.688rem] z-5 pl-[1.125rem] pr-[1.125rem] md:pl-0 md:pr-0 lg:pl-0 lg:pr-0">
             <div className="p-[2px] rounded-[1.625rem] bg-[linear-gradient(105deg,_rgb(41,52,255)_-2%,_rgba(36,65,212,0)_50%)]">
-              <div className="pl-[1.5rem] pr-[1.5rem] pt-[0.5rem] pb-[0.5rem] bg-black rounded-[1.625rem] text-[#8AA5FF] font-semibold">
+              <div className="pl-[1rem] pr-[1rem] pt-[0.5rem] pb-[0.5rem] bg-black rounded-[1.625rem] text-[#8AA5FF] font-semibold">
                 {AgentPageData.banner.about}
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function AgentBanner() {
               {AgentPageData.banner.title}
             </div>
             <div className="text-[0.875rem] md:text-[1rem] lg:text-[1rem] text-wrap w-[100%] md:w-[50%] lg:w-[30%] text-center text-white/70 font-normal tracking-[-0.02em] leading-[1.6em] md:mt-[0.75rem] lg:mt-[0.75rem] mt-[2.063rem]">
-            <div dangerouslySetInnerHTML={{ __html: AgentPageData.banner.subtitle}}></div>
+              {AgentPageData.banner.subtitle}
             </div>
             <div className="flex items-center justify-center md:mt-[0.875rem] lg:mt-[0.875rem] mt-[2.125rem] gap-[0.938rem]">
               <div

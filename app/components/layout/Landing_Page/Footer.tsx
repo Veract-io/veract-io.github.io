@@ -96,7 +96,7 @@ export default function Footer() {
           )}
         </svg>
         <div className="lg:hidden block openSansFont text-[6.563rem] md:text-[14.875rem] text-[#1C1C1C] font-bold leading-[1.2em] tracking-[0em] mt-[7.375rem] md:mt-0 z-[10]">
-          veract
+          veract 
         </div>
         <div className="flex flex-col items-center justify-center gap-[88px] pb-[15px] rounded-[1.375rem] bg-[#0F0E14] lg:mt-[-7.95rem] md:mt-[-6.95rem] mt-[-2.95rem] z-[100]">
           <div className="flex z-[100] md:flex-row flex-col lg:w-[70rem] w-full h-max  gap-[77px] md:gap-[60px] lg:gap-[142px] md:pt-[79px] pt-[48px] md:px-[50px] px-[26px] md:justify-center justify-start items-start">
