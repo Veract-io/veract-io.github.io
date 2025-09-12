@@ -13,6 +13,7 @@ import Services from "./components/layout/Landing_Page/Services";
 import { baseUrl, LandingPageData } from "@/lib/custom_data";
 import FAQ from "./components/layout/Landing_Page/FAQ";
 import { useFooterScrollState } from "@/lib/globalState";
+import EmailBuilder from "./components/layout/EmailBuilder";
 // import FAQ from "./components/layout/Landing_Page/FAQ";
 
 export default function Page() {
@@ -77,7 +78,7 @@ export default function Page() {
         {preloadImages.map((image, index) => (
           <link key={index} rel="preload" as="image" href={image} />
         ))}
-        <Navbar />
+        {/* <Navbar />
         <Banner />
         <ShowReel />
         <About_Us />
@@ -86,7 +87,8 @@ export default function Page() {
         <We_Work_With />
         <Testimonials />
         <FAQ faq_props={LandingPageData.faq} />
-        <Footer ref={footerRef} sessionId={"footer-landing-page"} />
+        <Footer ref={footerRef} sessionId={"footer-landing-page"} /> */}
+        <EmailBuilder />
       </div>
     )
     // </LenisProvider>
