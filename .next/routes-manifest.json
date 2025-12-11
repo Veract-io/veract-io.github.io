@@ -89,6 +89,12 @@
       "regex": "^/services(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/terms-and-condition",
+      "regex": "^/terms\\-and\\-condition(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-and\\-condition(?:/)?$"
     }
   ],
   "dataRoutes": [],
